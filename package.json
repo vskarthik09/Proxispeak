@@ -1,0 +1,21 @@
+{
+  "name": "proxispeak-week1-part1",
+  "version": "1.0.0",
+  "private": true,
+  "description": "ProxiSpeak Week 1 core backend starter",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.9.5",
+    "socket.io": "^4.8.1",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
